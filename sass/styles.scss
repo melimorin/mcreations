@@ -5,13 +5,48 @@ $dark-grey: #605a5c;
 $turquoise: #69b5a3;
 $pale-red: #D6AAAC;
 
-$title: 'MaisonNeue';
+$font-roboto: 'Roboto', sans-serif;
+$font-raleway: 'Raleway', sans-serif;
+
+.container {
+    max-width: 1360px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    font-family: $font-roboto;
+}
+
+.title {
+    margin-top: 95px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #69B5A3;
+    margin-left: -2px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.underline {
+    position: relative
+    ;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        border-bottom: solid 2px $dark-grey;
+        width: 10%;
+    }
+}
+
 
 .nav {
     text-align: center;
     height: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 75px;
 
