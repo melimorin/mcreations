@@ -61,3 +61,23 @@ p {
         color: #D6AAAC;
     }
 }
+
+.liste-images{
+    display: flex;
+    justify-content: center;
+
+    .item{
+        margin: 5px;
+        transition: all 1s;
+        flex-grow: 1;
+        flex-basis: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+    .item:hover{
+        transform: scale(1.1)
+    }
+    }
+    
