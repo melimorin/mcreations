@@ -1,0 +1,28 @@
+@import 'reset';
+@import 'fonts';
+
+$dark-grey: #605a5c;
+$turquoise: #69b5a3;
+$pale-red: #D6AAAC;
+
+$title: 'MaisonNeue';
+
+.nav {
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 75px;
+
+    a {
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        color: #69b5a3;
+    }
+
+    a:hover {
+        color: #D6AAAC;
+    }
+}
